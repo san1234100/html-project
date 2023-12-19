@@ -1,6 +1,9 @@
-h1{
-    color: green;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+
+header {
+    background-color: #1b1f24;
 }

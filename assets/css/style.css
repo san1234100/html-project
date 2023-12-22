@@ -87,6 +87,9 @@ section.hero_section{
 .social_icons li a i.fa-youtube:hover{
     color: #CD201F;
 }
+.btn_hero button{
+ margin-right: 10px;
+}
 .btn-style2{
     font-weight: 700;
     padding: 10px 20px;

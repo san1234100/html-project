@@ -130,7 +130,9 @@ section.hero_section {
     font-size: 30px;
     font-weight: bolder;
 }
-
+.about_section-desc h1 span{
+  color: var(--blue);
+}
 .about_section-desc ol {
     list-style: none;
     margin: 10px 0px;
@@ -144,7 +146,13 @@ section.hero_section {
     margin-bottom: 5px;
     color: gray;
 }
-
+.about_section-desc ol li a{
+    text-decoration: none;
+    color: gray;
+}
+.about_section-desc ol li a:hover{
+  color: var(--blue);
+}
 .about_section-img img {
     border-radius: 40px;
     border: 3px solid var(--blue);

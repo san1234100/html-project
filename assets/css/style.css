@@ -167,6 +167,19 @@ section.hero_section {
     padding: 60px;
     text-align: center;
 }
+.work_section-items{
+    display: flex;
+    justify-content: space-around;
+}
+.work_section-title{
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+.work_section-title span{
+    color: var(--blue);
+}
 .work_section-box{
     background-color: var(--grey);
     border: 1px solid var(--blue);
@@ -174,6 +187,10 @@ section.hero_section {
     padding: 30px;
     text-align: left;
     border-radius: 10px;
+    cursor: pointer;
+}
+.work_section-box:hover{
+    background-color:#1e2123;
 }
 .work_section-box p{
     color: gray;
@@ -185,8 +202,19 @@ section.hero_section {
 }
 .work_section-desc{
     margin-bottom: 10px;
+    margin-top: 20px;
 }
-
+.work_section-desc p{
+   padding: 5px;
+}
+.work_section-icon{
+background-color: var(--blue);
+padding: 10px;
+border-radius: 50%;
+}
+.work_section-icon:hover{
+    background-color: var(--btn-styles-hover);
+}
 
 
 

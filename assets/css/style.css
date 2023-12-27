@@ -173,8 +173,9 @@ section.hero_section {
 .about_section-img img {
     border-radius: 40px;
     border: 3px solid var(--blue);
+    box-shadow:0 0 20px var(--blue);
+   
 }
-
 /* work_section */
 .work_section {
     background-color: var(--black);

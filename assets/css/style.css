@@ -14,7 +14,7 @@
 }
 
 .body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 header {
@@ -217,7 +217,7 @@ border-radius: 50%;
 }
 
 
-
+/* button style */
 .btn-style2 {
     font-weight: 700;
     padding: 10px 20px;
@@ -250,3 +250,39 @@ border-radius: 50%;
     background-color: var(--blue);
     color: var(--white);
 }
+
+
+/* conatct-section */
+.contact_section{
+    text-align: center;
+    background-color: #0c1014;
+    color: var(--white);
+    padding: 40px;
+}
+.contact_section-title{
+   margin: 20px 0;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+}
+
+.contact_section form input,textarea{
+padding: 10px 10px;
+width: 350px;
+border: 1px solid var(--blue);
+border-radius: 5px;
+background-color: #22282f;
+margin-bottom: 10px;
+resize: none;
+}
+
+footer{
+padding: 20px 0;
+background-color: var(--black);
+color: gray;
+font-size: 16px;
+text-align: center;
+}
+footer a{  
+    color: var(--blue);
+    text-decoration: none;
+    }
